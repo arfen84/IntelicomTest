@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CRMModelStoreContainer" CdmEntityContainer="CRMEntities">
+    <EntitySetMapping Name="Klienci">
+      <EntityTypeMapping TypeName="CRMModel.Klienci">
+        <MappingFragment StoreEntitySet="Klienci">
+          <ScalarProperty Name="Friend" ColumnName="Friend" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nazwisko" ColumnName="Nazwisko" />
+          <ScalarProperty Name="Imie" ColumnName="Imie" />
+          <ScalarProperty Name="Nick" ColumnName="Nick" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Usługa" ColumnName="Usługa" />
+          <ScalarProperty Name="DataZakupu" ColumnName="DataZakupu" />
+          <ScalarProperty Name="DataZakonczenieUsługi" ColumnName="DataZakonczenieUsługi" />
+          <ScalarProperty Name="IloscAbonamentowRocznych" ColumnName="IloscAbonamentowRocznych" />
+          <ScalarProperty Name="SkadPozyskany" ColumnName="SkadPozyskany" />
+          <ScalarProperty Name="Ulica" ColumnName="Ulica" />
+          <ScalarProperty Name="Miasto" ColumnName="Miasto" />
+          <ScalarProperty Name="Kod_pocztowy" ColumnName="Kod-pocztowy" />
+          <ScalarProperty Name="TelefonKomorkowy" ColumnName="TelefonKomorkowy" />
+          <ScalarProperty Name="TelefonStacjonarny" ColumnName="TelefonStacjonarny" />
+          <ScalarProperty Name="StronaWWW" ColumnName="StronaWWW" />
+          <ScalarProperty Name="NazwaFirmy" ColumnName="NazwaFirmy" />
+          <ScalarProperty Name="Uwagi" ColumnName="Uwagi" />
+          <ScalarProperty Name="Inne" ColumnName="Inne" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CRMModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Klienci">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Nazwisko" Type="varchar" MaxLength="50" />
+    <Property Name="Imie" Type="varchar" MaxLength="50" />
+    <Property Name="Nick" Type="varchar" MaxLength="50" />
+    <Property Name="Mail" Type="varchar" MaxLength="50" />
+    <Property Name="Usługa" Type="varchar" MaxLength="50" />
+    <Property Name="DataZakupu" Type="date" />
+    <Property Name="DataZakonczenieUsługi" Type="date" />
+    <Property Name="IloscAbonamentowRocznych" Type="int" />
+    <Property Name="SkadPozyskany" Type="varchar" MaxLength="50" />
+    <Property Name="Ulica" Type="varchar" MaxLength="50" />
+    <Property Name="Miasto" Type="varchar" MaxLength="50" />
+    <Property Name="Kod-pocztowy" Type="varchar" MaxLength="50" />
+    <Property Name="TelefonKomorkowy" Type="nvarchar" MaxLength="50" />
+    <Property Name="TelefonStacjonarny" Type="nvarchar" MaxLength="50" />
+    <Property Name="StronaWWW" Type="varchar" MaxLength="50" />
+    <Property Name="NazwaFirmy" Type="nvarchar" MaxLength="50" />
+    <Property Name="Uwagi" Type="nvarchar(max)" />
+    <Property Name="Inne" Type="nvarchar(max)" />
+    <Property Name="Friend" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="CRMModelStoreContainer">
+    <EntitySet Name="Klienci" EntityType="Self.Klienci" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

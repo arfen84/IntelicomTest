@@ -1,0 +1,168 @@
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\MVC Test.dll.config
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\MVC Test.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\MVC Test.pdb
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Antlr3.Runtime.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\EntityFramework.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\EntityFramework.SqlServer.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.Security.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.Security.Google.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Web.Infrastructure.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Newtonsoft.Json.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Owin.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\System.Web.Helpers.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\System.Web.Mvc.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\System.Web.Optimization.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\System.Web.Razor.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\System.Web.WebPages.Deployment.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\System.Web.WebPages.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\System.Web.WebPages.Razor.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\WebGrease.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\System.Web.Helpers.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\System.Web.Mvc.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\System.Web.Optimization.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\System.Web.Razor.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\System.Web.WebPages.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\System.Web.WebPages.Deployment.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\System.Web.WebPages.Razor.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Antlr3.Runtime.pdb
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Newtonsoft.Json.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\EntityFramework.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\EntityFramework.SqlServer.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.Security.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.Security.Google.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\obj\Debug\MVC Test.csprojResolveAssemblyReference.cache
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\obj\Debug\MVC Test.dll
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\obj\Debug\MVC Test.pdb
+c:\users\mati\documents\visual studio 2013\Projects\MVC Test\MVC Test\bin\GridMvc.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\MVC Test.dll.config
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\MVC Test.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\MVC Test.pdb
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Antlr3.Runtime.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\EntityFramework.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\EntityFramework.SqlServer.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\GridMvc.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.Security.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Newtonsoft.Json.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Owin.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\System.Web.Helpers.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\System.Web.Mvc.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\System.Web.Optimization.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\System.Web.Razor.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\System.Web.WebPages.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\WebGrease.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\EntityFramework.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\EntityFramework.SqlServer.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\System.Web.Helpers.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\System.Web.Mvc.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\System.Web.Optimization.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\System.Web.Razor.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\System.Web.WebPages.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Antlr3.Runtime.pdb
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Newtonsoft.Json.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.Security.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\obj\Debug\MVC Test.csprojResolveAssemblyReference.cache
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\obj\Debug\MVC Test.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\MVC Test - CRM dziala\MVC Test\obj\Debug\MVC Test.pdb
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\MVC Test.dll.config
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\MVC Test.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\MVC Test.pdb
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Antlr3.Runtime.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\EntityFramework.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\EntityFramework.SqlServer.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\GridMvc.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.Security.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Newtonsoft.Json.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Owin.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\System.Web.Helpers.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\System.Web.Mvc.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\System.Web.Optimization.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\System.Web.Razor.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\System.Web.WebPages.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\WebGrease.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\EntityFramework.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\EntityFramework.SqlServer.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\System.Web.Helpers.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\System.Web.Mvc.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\System.Web.Optimization.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\System.Web.Razor.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\System.Web.WebPages.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Antlr3.Runtime.pdb
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Newtonsoft.Json.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.Security.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\obj\Debug\MVC Test.csprojResolveAssemblyReference.cache
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\obj\Debug\MVC Test.dll
+C:\Users\Mati\Documents\Visual Studio 2013\Projects\Intelicom Test\MVC Test\obj\Debug\MVC Test.pdb

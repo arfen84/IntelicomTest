@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="CRMModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Klienci">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Nazwisko" Type="varchar" MaxLength="50" />
+          <Property Name="Imie" Type="varchar" MaxLength="50" />
+          <Property Name="Nick" Type="varchar" MaxLength="50" />
+          <Property Name="Mail" Type="varchar" MaxLength="50" />
+          <Property Name="Usługa" Type="varchar" MaxLength="50" />
+          <Property Name="DataZakupu" Type="date" />
+          <Property Name="DataZakonczenieUsługi" Type="date" />
+          <Property Name="IloscAbonamentowRocznych" Type="int" />
+          <Property Name="SkadPozyskany" Type="varchar" MaxLength="50" />
+          <Property Name="Ulica" Type="varchar" MaxLength="50" />
+          <Property Name="Miasto" Type="varchar" MaxLength="50" />
+          <Property Name="Kod-pocztowy" Type="varchar" MaxLength="50" />
+          <Property Name="TelefonKomorkowy" Type="nvarchar" MaxLength="50" />
+          <Property Name="TelefonStacjonarny" Type="nvarchar" MaxLength="50" />
+          <Property Name="StronaWWW" Type="varchar" MaxLength="50" />
+          <Property Name="NazwaFirmy" Type="nvarchar" MaxLength="50" />
+          <Property Name="Uwagi" Type="nvarchar(max)" />
+          <Property Name="Inne" Type="nvarchar(max)" />
+          <Property Name="Friend" Type="bit" />
+        </EntityType>
+        <EntityContainer Name="CRMModelStoreContainer">
+          <EntitySet Name="Klienci" EntityType="Self.Klienci" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CRMModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Klienci">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Nazwisko" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Imie" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Nick" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Usługa" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="DataZakupu" Type="DateTime" Precision="0" />
+          <Property Name="DataZakonczenieUsługi" Type="DateTime" Precision="0" />
+          <Property Name="IloscAbonamentowRocznych" Type="Int32" />
+          <Property Name="SkadPozyskany" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Ulica" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Miasto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Kod_pocztowy" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="TelefonKomorkowy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TelefonStacjonarny" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="StronaWWW" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="NazwaFirmy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Uwagi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Inne" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Friend" Type="Boolean" />
+        </EntityType>
+        <EntityContainer Name="CRMEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Klienci" EntityType="Self.Klienci" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CRMModelStoreContainer" CdmEntityContainer="CRMEntities">
+          <EntitySetMapping Name="Klienci">
+            <EntityTypeMapping TypeName="CRMModel.Klienci">
+              <MappingFragment StoreEntitySet="Klienci">
+                <ScalarProperty Name="Friend" ColumnName="Friend" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nazwisko" ColumnName="Nazwisko" />
+                <ScalarProperty Name="Imie" ColumnName="Imie" />
+                <ScalarProperty Name="Nick" ColumnName="Nick" />
+                <ScalarProperty Name="Mail" ColumnName="Mail" />
+                <ScalarProperty Name="Usługa" ColumnName="Usługa" />
+                <ScalarProperty Name="DataZakupu" ColumnName="DataZakupu" />
+                <ScalarProperty Name="DataZakonczenieUsługi" ColumnName="DataZakonczenieUsługi" />
+                <ScalarProperty Name="IloscAbonamentowRocznych" ColumnName="IloscAbonamentowRocznych" />
+                <ScalarProperty Name="SkadPozyskany" ColumnName="SkadPozyskany" />
+                <ScalarProperty Name="Ulica" ColumnName="Ulica" />
+                <ScalarProperty Name="Miasto" ColumnName="Miasto" />
+                <ScalarProperty Name="Kod_pocztowy" ColumnName="Kod-pocztowy" />
+                <ScalarProperty Name="TelefonKomorkowy" ColumnName="TelefonKomorkowy" />
+                <ScalarProperty Name="TelefonStacjonarny" ColumnName="TelefonStacjonarny" />
+                <ScalarProperty Name="StronaWWW" ColumnName="StronaWWW" />
+                <ScalarProperty Name="NazwaFirmy" ColumnName="NazwaFirmy" />
+                <ScalarProperty Name="Uwagi" ColumnName="Uwagi" />
+                <ScalarProperty Name="Inne" ColumnName="Inne" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CRMModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Klienci">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Nazwisko" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Imie" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Nick" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Usługa" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DataZakupu" Type="DateTime" Precision="0" />
+    <Property Name="DataZakonczenieUsługi" Type="DateTime" Precision="0" />
+    <Property Name="IloscAbonamentowRocznych" Type="Int32" />
+    <Property Name="SkadPozyskany" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Ulica" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Miasto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Kod_pocztowy" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TelefonKomorkowy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TelefonStacjonarny" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StronaWWW" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NazwaFirmy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Uwagi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Inne" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Friend" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="CRMEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Klienci" EntityType="Self.Klienci" />
+  </EntityContainer>
+</Schema>

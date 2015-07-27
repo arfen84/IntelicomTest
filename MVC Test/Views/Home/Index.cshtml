@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MVC_Test.Models.Klienci>
+@using GridMvc.Html
+
+@{
+    ViewBag.Title = "Mateusz Page";
+}
+
+
+<div class="row">
+    <div class="col-md-4" style="width:100%;">
+       <h3>Total number of contacts : @Model.Count() Number of friends : @Model.Count(m=>m.Friend==true)</h3> 
+        @Html.Grid(Model).Columns(columns =>
+                    {
+                        columns.Add(c => c.Imie).Titled("First Name").Filterable(true);
+                        columns.Add(c => c.Nazwisko).Titled("Last Name").Filterable(true);
+                        columns.Add(c => c.TelefonKomorkowy).Titled("Phone Number").Filterable(true);
+                        columns.Add(c => c.Mail).Titled("Email").Filterable(true);
+                        columns.Add(c => c.Ulica).Titled("Address").Filterable(true);
+                        columns.Add(c => c.Miasto).Titled("City").Filterable(true);
+                        columns.Add(c => c.Kod_pocztowy).Titled("ZIP").Filterable(true);
+                        columns.Add(c => c.Friend).Titled("Is Friend").Filterable(true);
+                        columns.Add(m => m.Id)
+                               .Titled("Edit")
+                               .Sanitized(false)
+                               .Encoded(false)
+                            .RenderValueAs(d => Html.ActionLink("Edit", "EditCustomer", "Home", new { Id = d.Id }, new { @class = "modal-link" }));
+                        columns.Add(m => m.TelefonStacjonarny)
+                               .Titled("Delete")
+                               .Sanitized(false)
+                               .Encoded(false)
+                            .RenderValueAs(d => Html.ActionLink("Delete", "DeleteCustomer", "Home", new { Id = d.Id }, new { @class = "modal-link" }));
+
+
+
+                    })
+        @Html.ActionLink("Create", "CreateCustomer", "Home", new { @class = "modal-link" })
+
+        @*.WithPaging(2)*@
+    </div>
+</div>

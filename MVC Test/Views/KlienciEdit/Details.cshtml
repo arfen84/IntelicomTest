@@ -1,0 +1,162 @@
+﻿@model MVC_Test.Models.Klienci
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Klienci</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nazwisko)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nazwisko)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Imie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Imie)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nick)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nick)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Mail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Usługa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Usługa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataZakupu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataZakupu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataZakonczenieUsługi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataZakonczenieUsługi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IloscAbonamentowRocznych)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IloscAbonamentowRocznych)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SkadPozyskany)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SkadPozyskany)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ulica)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ulica)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Miasto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Miasto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Kod_pocztowy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kod_pocztowy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TelefonKomorkowy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TelefonKomorkowy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TelefonStacjonarny)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TelefonStacjonarny)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StronaWWW)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StronaWWW)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NazwaFirmy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NazwaFirmy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Uwagi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Uwagi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Inne)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Inne)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
