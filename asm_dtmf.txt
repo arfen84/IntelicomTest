@@ -1,0 +1,120 @@
+;*******************************************************
+;* Sterowanie uk³adem ISD za pomoc¹ odpowiednich komend *
+;* przy u¿yciu magistrali SPI. *
+;*******************************************************
+List p=16F877
+#include "c:\program files\microchip\mpasm suite\p16f877.inc"
+;__config 11h ;
+SSPSTAT equ 94h
+SSPCON equ 14h ;przypisanie nazwie SSPCON adresu rejestru o tej samej nazwie
+INTCON equ 0Bh
+PORTB equ 06
+TRISA equ 85h
+TRISB equ 86h
+TRISC equ 87h
+PORTC equ 7
+FLAGA equ 25h
+FLAGA2 equ 26h
+CKE equ 6 ;6 bit rejestru SSPSTAT
+CZAS equ 27h
+STATUS equ 03
+RP0 equ 5
+Z equ 2
+org 0
+Main ;czekaj na przerwania spiac
+nop ;glowny program
+goto Main
+org 4 ;przerwanie
+start2 goto dzialaj ;zaczynamy
+Constant RB4=4 ;4 noza
+Constant RB7=7 ;7 nozka
+bcf STATUS,RP0
+movlw 10h
+movwf SSPCON ; zaladowanie SSPCON SSPEN
+1 CKP 0 SSPMS 0000
+movlw 88h
+movwf INTCON ;zaladowanie Enable all int enable RB on change int
+bsf STATUS,RP0 ; przechodzimy na bank 1 bo odwolujemy sie do
+adresow > 79H
+strona 75
+movlw 41h
+movwf SSPSTAT ; zaladuj transmicje przy wznoszacym zboczu zegarowym
+movlw 0FFh ; Port B 1nput
+movwf TRISB ; skonfiguruj
+movlw 0h
+movwf TRISC ; zegar (3) i szyna wyjsciowa (5) Output (i inne tez)
+bcf STATUS,RP0 ; bank 0
+movlw 0FFh ;wszystkie nozki w stan wysoki na b
+movwf PORTB
+org 20h
+dzialaj ;w zaleznosci od tego ktory przycisk, wykonaj odpowiednie
+;czynnosci
+movf PORTB, w ;pobierz liczbe z portu
+movwf FLAGA ;zapisz ja w zmiennej FLAGA
+btfss FLAGA,RB4 ;jesli zero na RB4 to
+call record ;wyslij sekwencje nagrywajaca
+btfss FLAGA,RB7 ;jesli po przerwaniu jest zero na RB7 to
+call play ;uruchom sekwecje wysylajaca rozkaz odtwarzania
+btfsc FLAGA,RB4 ;jesli po przerwaniu jest zero na RB4
+call stop ;to wyslij rozkaz stop nagrywania
+btfsc FLAGA,RB7 ;jesli zero jest na RB7
+call stop ;przestan odtwarzac
+return
+record ;procedura nagrywania
+movlw 21h ;POWERUP
+movwf SSPBUF ;zaladuj to do buffora
+call Tpud ;25ms
+movlw 21h ;POWERUP
+movwf SSPBUF ;raz jeszcze
+movlw 0A0h ;SETREC z adresem 0
+movlw 0000h ;adres zerowy 8 bit
+movwf SSPBUF ;wyslij 8 bit zerowych
+movwf SSPBUF ;kolejne 8 bit zerowych (adres 16 bitowy komunikatu w ISD)
+movwf SSPBUF ;
+movlw 0B0h ;RECord
+movwf SSPBUF
+movlw 88h ;ustaw na nowo rejestr przerwan w stan poczatkowy
+movwf INTCON
+return ;zakoncz call'a
+strona 76
+play ;odtwarzanie
+movlw 21h ;POWERUP
+movwf SSPBUF
+call Tpud
+movlw 70h ;SETPLAY spod adresu 0
+movwf SSPBUF ;do bufora
+movlw 0000h ;adres 0
+movwf SSPBUF ;wyœlij 8 bitów 0
+movwf SSPBUF ;wyœlij 8 bitów 0
+movlw 0F0h ;PLAY z adresu 0
+movlw 88h ;konfiguracja poczatkowa rejestru przerwan
+movwf INTCON
+return
+stop:
+movlw 30h ;STOP
+movwf SSPBUF
+movlw 88h
+movwf INTCON
+return
+Tpud ; poczekaj okreslony czas 25ms
+movlw 18h
+movwf CZAS ;25cykli do zmiennej kazdy cykl trwa milisekundê
+petla
+call T1ms ;zrob milisekunde postoju
+movf CZAS,0 ;czy to zaladuje wartosc spod adresu "CZAS" do
+w?
+addlw 1
+;zmniejsz
+btfss STATUS,Z ;sprawdz czy to koniec
+goto petla
+return
+T1ms
+petelka ; petla trwajaca milisekunde
+movlw 0ffh
+addlw 1
+btfss STATUS,Z
+goto petelka
+return
+org 0
+;start goto Main
+END
